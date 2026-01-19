@@ -12,7 +12,7 @@ import { FloatingDock } from "../ui/floating-dock";
 import Link from "next/link";
 
 import SmoothScroll from "../smooth-scroll";
-import projects, { Project } from "@/data/projects";
+import projects, { ProjectType } from "@/data/projects";
 import { cn } from "@/lib/utils";
 import { SectionHeader } from "./section-header";
 
@@ -30,7 +30,7 @@ const ProjectsSection = () => {
     </SectionWrapper>
   );
 };
-const Modall = ({ project }: { project: Project }) => {
+const Modall = ({ project }: { project: ProjectType }) => {
   return (
     <div className="flex items-center justify-center">
       <Modal>
@@ -79,7 +79,7 @@ const Modall = ({ project }: { project: Project }) => {
 };
 export default ProjectsSection;
 
-const ProjectContents = ({ project }: { project: Project }) => {
+const ProjectContents = ({ project }: { project: ProjectType }) => {
   return (
     <>
       <h4 className="text-lg md:text-2xl text-neutral-600 dark:text-neutral-100 font-bold text-center mb-8">
