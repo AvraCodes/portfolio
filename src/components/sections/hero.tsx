@@ -11,7 +11,8 @@ import {
 import { usePreloader } from "../preloader";
 import { BlurIn, BoxReveal } from "../reveal-animations";
 import ScrollDownIcon from "../scroll-down-icon";
-import { SiGithub, SiLinkedin, SiX } from "react-icons/si";
+import { SiGithub, SiLinkedin } from "react-icons/si";
+import { FaInstagram } from "react-icons/fa6";
 import { config } from "@/data/config";
 
 import SectionWrapper from "../ui/section-wrapper";
@@ -76,16 +77,15 @@ const HeroSection = () => {
                       "cursor-default font-display sm:text-xl md:text-xl whitespace-nowrap bg-clip-text "
                     )}
                   >
-                    A Full Stack Web Developer
+                    Data Scientist & Full-Stack Developer
                   </p>
                 </BlurIn>
               </div>
               <div className="mt-8 flex flex-col gap-3 w-fit">
                 <Link
-                  href={
-                    "https://drive.google.com/file/d/1O97WCk2DrO9x6SHOqf7LvRbmHkMgGIb4/view?usp=sharing"
-                  }
+                  href="/assets/resume/Avra_Paul_Resume.pdf"
                   target="_blank"
+                  download
                   className="flex-1"
                 >
                   <BoxReveal delay={2} width="100%" >
@@ -112,28 +112,17 @@ const HeroSection = () => {
                     </TooltipContent>
                   </Tooltip>
                   <div className="flex items-center h-full gap-2">
-                    <Link
-                      href={config.social.twitter}
-                      target="_blank"
-                    >
+                    <Link href="https://www.instagram.com/avras.distress?igsh=Z2MyaXNza3A3bDNw&utm_source=qr" target="_blank">
                       <Button variant={"outline"}>
-                        <SiX size={24} />
+                        <FaInstagram size={20} />
                       </Button>
                     </Link>
-                    <Link
-                      href={config.social.github}
-                      target="_blank"
-                      className="cursor-can-hover"
-                    >
+                    <Link href={config.social.github} target="_blank" className="cursor-can-hover">
                       <Button variant={"outline"}>
                         <SiGithub size={24} />
                       </Button>
                     </Link>
-                    <Link
-                      href={config.social.linkedin}
-                      target="_blank"
-                      className="cursor-can-hover"
-                    >
+                    <Link href={config.social.linkedin} target="_blank" className="cursor-can-hover">
                       <Button variant={"outline"}>
                         <SiLinkedin size={24} />
                       </Button>
