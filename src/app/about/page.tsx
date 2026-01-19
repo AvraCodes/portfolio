@@ -1,50 +1,40 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { DiMongodb, DiNginx, DiNpm, DiPostgresql, DiVim } from "react-icons/di";
+import { DiPostgresql } from "react-icons/di";
 import {
-  FaAws,
-  FaCss3,
-  FaDocker,
   FaEnvelope,
-  FaGit,
   FaGithub,
-  FaHtml5,
   FaLinkedin,
-  FaLinux,
-  FaNodeJs,
   FaPhone,
   FaReact,
-  FaVuejs,
-  FaYarn,
 } from "react-icons/fa6";
 import {
-  RiFirebaseFill,
-  RiJavascriptFill,
   RiNextjsFill,
   RiTailwindCssFill,
 } from "react-icons/ri";
 import {
-  SiExpress,
   SiJavascript,
-  SiKubuntu,
-  SiPm2,
-  SiPrettier,
   SiTypescript,
-  SiVercel,
-  SiVscodium,
+  SiPython,
+  SiPandas,
+  SiNumpy,
+  SiMatplotlib,
+  SiTensorflow,
+  SiScikitlearn,
+  SiSeaborn,
+  SiFastapi,
 } from "react-icons/si";
-import { VscCode } from "react-icons/vsc";
+import { FaInstagram } from "react-icons/fa6";
 
 // @ts-ignore
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import { TbTerminal2 } from "react-icons/tb";
 
 const CONTACT_LINKS = [
   {
     name: "Email",
-    content: "naresh.khatri2345@gmail",
-    href: "mailto:naresh.khatri2345@gmail.com",
+    content: "eminentavra9836@gmail.com",
+    href: "mailto:eminentavra9836@gmail.com",
     icon: <FaEnvelope height={"50px"} />,
   },
   {
@@ -55,175 +45,108 @@ const CONTACT_LINKS = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/naresh-khatri/",
-    content: "/naresh-khatri",
+    href: "",
+    content: "",
     icon: <FaLinkedin height={"50px"} />,
   },
   {
     name: "GitHub",
-    href: "https://github.com/Naresh-Khatri",
-    content: "/naresh-khatri",
+    href: "https://github.com/AvraCodes",
+    content: "/AvraCodes",
     icon: <FaGithub height={"50px"} />,
+  },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/avras.distress?igsh=Z2MyaXNza3A3bDNw&utm_source=qr",
+    content: "/avras.distress",
+    icon: <FaInstagram height={"50px"} />,
   },
 ];
 
 const TOOLS = [
   {
+    name: "Python",
+    content: "Data & scripting language",
+    icon: <SiPython size={"50px"} color="#3776AB" />,
+    color: "#3776AB",
+  },
+  {
+    name: "Pandas",
+    content: "Data manipulation library",
+    icon: <SiPandas size={"50px"} color="#150458" />,
+    color: "#150458",
+  },
+  {
+    name: "NumPy",
+    content: "Numerical computing",
+    icon: <SiNumpy size={"50px"} color="#013243" />,
+    color: "#013243",
+  },
+  {
+    name: "Matplotlib",
+    content: "Plotting & charts",
+    icon: <SiMatplotlib size={"50px"} color="#11557C" />,
+    color: "#11557C",
+  },
+  {
+    name: "Seaborn",
+    content: "Statistical visualization",
+    icon: <SiSeaborn size={"50px"} color="#4C72B0" />,
+    color: "#4C72B0",
+  },
+  {
+    name: "Scikit-learn",
+    content: "ML algorithms library",
+    icon: <SiScikitlearn size={"50px"} color="#F7931E" />,
+    color: "#F7931E",
+  },
+  {
+    name: "TensorFlow",
+    content: "Deep learning framework",
+    icon: <SiTensorflow size={"50px"} color="#FF6F00" />,
+    color: "#FF6F00",
+  },
+  {
+    name: "FastAPI",
+    content: "Modern Python API",
+    icon: <SiFastapi size={"50px"} color="#009688" />,
+    color: "#009688",
+  },
+  {
+    name: "PostgreSQL",
+    content: "Relational database",
+    icon: <DiPostgresql size={"50px"} color="#336791" />,
+    color: "#336791",
+  },
+  {
     name: "JavaScript",
-    content: "JavaScript is a high-level, interpreted programming language",
+    content: "Web scripting language",
     icon: <SiJavascript size={"50px"} color={"#f0db4f"} />,
     color: "#f0db4f",
   },
   {
     name: "TypeScript",
-    content: "TypeScript is a superset of JavaScript that compiles to plain JS",
+    content: "Typed JavaScript",
     icon: <SiTypescript size={"50px"} color={"#007acc"} />,
     color: "#007acc",
   },
   {
-    name: "HTML",
-    content: "Next.js is a React framework for production",
-    icon: <FaHtml5 size={"50px"} color="#e34c26" />,
-    color: "#e34c26",
-  },
-  {
-    name: "CSS",
-    content: "Next.js is a React framework for production",
-    icon: <FaCss3 size={"50px"} color="#563d7c" />,
-    color: "#563d7c",
-  },
-  {
-    name: "Nodejs",
-    content: "Next.js is a React framework for production",
-    icon: <FaNodeJs size={"50px"} color="#6cc24a" />,
-    color: "#6cc24a",
-  },
-  {
-    name: "React.js",
-    content: "Next.js is a React framework for production",
+    name: "React",
+    content: "UI component library",
     icon: <FaReact size={"50px"} color="#61dafb" />,
     color: "#61dafb",
   },
   {
-    name: "Docker",
-    content: "Next.js is a React framework for production",
-    icon: <FaDocker size={"50px"} color="#2496ed" />,
-    color: "#2496ed",
-  },
-  {
-    name: "NginX",
-    content: "Next.js is a React framework for production",
-    icon: <DiNginx size={"50px"} color="#008000" />,
-    color: "#008000",
-  },
-  {
-    name: "Vue.js",
-    content: "Next.js is a React framework for production",
-    icon: <FaVuejs size={"50px"} color="#41b883" />,
-    color: "#41b883",
-  },
-  {
-    name: "Express.js",
-    content: "Next.js is a React framework for production",
-    icon: <SiExpress size={"50px"} color="#fff" />,
+    name: "Next.js",
+    content: "React framework",
+    icon: <RiNextjsFill size={"50px"} color="#fff" />,
     color: "#000000",
-  },
-  {
-    name: "PostgreSQL",
-    content: "Next.js is a React framework for production",
-    icon: <DiPostgresql size={"50px"} color="#336791" />,
-    color: "#336791",
-  },
-  {
-    name: "MongoDB",
-    content: "Next.js is a React framework for production",
-    icon: <DiMongodb size={"50px"} color="#4db33d" />,
-    color: "#4db33d",
   },
   {
     name: "Tailwind CSS",
-    content: "Next.js is a React framework for production",
+    content: "Utility-first CSS",
     icon: <RiTailwindCssFill size={"50px"} color="#06b6d4" />,
     color: "#06b6d4",
-  },
-  {
-    name: "Firebase",
-    content: "Next.js is a React framework for production",
-    icon: <RiFirebaseFill size={"50px"} color="#FFCA28" />,
-    color: "#FFCA28",
-  },
-  {
-    name: "Git",
-    content: "Next.js is a React framework for production",
-    icon: <FaGit size={"50px"} color="#f05032" />,
-    color: "#f05032",
-  },
-  {
-    name: "GitHub",
-    content: "Next.js is a React framework for production",
-    icon: <FaGithub size={"50px"} color="#fff" />,
-    color: "#000000",
-  },
-  {
-    name: "VS Code",
-    content: "Next.js is a React framework for production",
-    icon: <SiVscodium size={"50px"} color="#007acc" />,
-    color: "#007acc",
-  },
-  {
-    name: "VIM",
-    content: "Next.js is a React framework for production",
-    icon: <DiVim size={"50px"} color="#fff" />,
-    color: "#000000",
-  },
-  {
-    name: "Prettier",
-    content: "Next.js is a React framework for production",
-    icon: <SiPrettier size={"50px"} color="#f7b93c" />,
-    color: "#f7b93c",
-  },
-  {
-    name: "NPM",
-    content: "Next.js is a React framework for production",
-    icon: <DiNpm size={"50px"} color="#CB3837" />,
-    color: "#CB3837",
-  },
-  {
-    name: "Yarn",
-    content: "Next.js is a React framework for production",
-    icon: <FaYarn size={"50px"} color="#2C8EBB" />,
-    color: "#2C8EBB",
-  },
-  {
-    name: "Vercel",
-    content: "Next.js is a React framework for production",
-    icon: <SiVercel size={"50px"} color="#fff" />,
-    color: "#000000",
-  },
-  {
-    name: "Linux",
-    content: "Next.js is a React framework for production",
-    icon: <FaLinux size={"50px"} color="#fff" />,
-    color: "#000000",
-  },
-  {
-    name: "Kubuntu",
-    content: "Next.js is a React framework for production",
-    // give me correct color for  kubuntu
-    icon: <SiKubuntu size={"50px"} color="#0077C4" />,
-    color: "#000000",
-  },
-  {
-    name: "Terminal",
-    content: "Next.js is a React framework for production",
-    icon: <TbTerminal2 size={"50px"} color="#fff" />,
-    color: "#000000",
-  },
-  {
-    name: "AWS",
-    content: "Next.js is a React framework for production",
-    icon: <FaAws size={"50px"} color="#3f51b5" />,
-    color: "#000000",
   },
 ];
 
@@ -251,9 +174,9 @@ function Page() {
                 />
               </div>
               <div className="flex flex-col gap-3 lg:items-center ml-10 md:ml-20 lg:ml-0">
-                <p className="text-center text-xl">Naresh Khatri</p>
+                <p className="text-center text-xl">Avra Paul</p>
                 <div className="text-xs bg-zinc-700 w-fit px-3 py-1 rounded-full">
-                  Web Developer
+                  Data Scientist & Full-Stack
                 </div>
               </div>
             </div>
@@ -287,17 +210,50 @@ function Page() {
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
             <p className="mb-10 text-roboto">
-              Hey there! I&apos;m Naresh, a Fullstack developer passionate about
-              creating meaningful digital experiences. With great in Web
-              development, I thrive on turning ideas into reality through coding
-              and design. My journey began with a fascination for technology and
-              a drive to make a positive impact.
+              Hey there! I&apos;m Avra, a data scientist and full-stack developer focused on building reliable data pipelines, APIs, and visualizations that help teams make informed decisions.
             </p>
             <p className="mb-10">
               When I&apos;m not coding, you can find me [Your
               Interests/Hobbies], exploring new technologies, or sipping coffee
               while brainstorming my next project.
             </p>
+            <h1 className="text-3xl mb-10 lg:md-20">Experience</h1>
+            <div className="mb-6">
+              <h2 className="text-xl">Independent Developer — AI, ML & Full-Stack Systems</h2>
+              <div className="text-sm text-zinc-400">2025 – Present</div>
+              <ul className="list-disc ml-6 mb-4">
+                <li>Designed and deployed Alvyn, an AI-powered data analyst agent that automates data scraping, analysis, and visualization through a REST API</li>
+                <li>Built end-to-end data pipelines involving large-scale web scraping (55,000+ records), data cleaning, preprocessing, and statistical analysis</li>
+                <li>Developed production-ready backend systems using Python and FastAPI with structured JSON responses and automated chart generation</li>
+                <li>Applied machine learning and statistical techniques (EDA, PCA, correlation analysis, ranking and scoring) to extract insights from real-world datasets</li>
+                <li>Optimized LLM-based workflows for latency, cost, and reliability</li>
+                <li>Deployed and maintained full-stack applications with scalable, API-first architecture</li>
+              </ul>
+              <div className="text-sm"><strong>Tech:</strong> Python, FastAPI, LLMs, Web Scraping, Pandas, NumPy, Data Visualization, REST APIs, PostgreSQL, Vercel</div>
+            </div>
+
+            <div className="mb-6">
+              <h2 className="text-xl">Machine Learning & Data Science — Competitive & Applied Projects</h2>
+              <div className="text-sm text-zinc-400">2025 – Present</div>
+              <ul className="list-disc ml-6 mb-4">
+                <li>Achieved ~80% scores in multiple Kaggle competitions, focusing on feature engineering, model selection, and evaluation</li>
+                <li>Worked with structured and unstructured datasets, performing preprocessing, modeling, and validation</li>
+                <li>Translated competition learnings into real-world ML pipelines</li>
+              </ul>
+              <div className="text-sm"><strong>Tech:</strong> Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn</div>
+            </div>
+
+            <div className="mb-8">
+              <h2 className="text-xl">Full-Stack Development Projects</h2>
+              <div className="text-sm text-zinc-400">2025 – Present</div>
+              <ul className="list-disc ml-6 mb-4">
+                <li>Built and deployed full-stack web applications integrating modern JavaScript frontends with Python backend APIs</li>
+                <li>Implemented clean, responsive UI using component-based design and integrated them with data-driven backend services</li>
+                <li>Focused on maintainability, modular code, and real-world usability</li>
+              </ul>
+              <div className="text-sm"><strong>Tech:</strong> JavaScript, React, Next.js, Tailwind CSS, FastAPI, REST APIs</div>
+            </div>
+
             <h1 className="text-3xl mb-10 lg:md-20">Stuff I use</h1>
             <div className="mb-5">
               {!toolsLoaded ? (
