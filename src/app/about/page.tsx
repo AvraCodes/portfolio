@@ -7,6 +7,8 @@ import {
   FaLinkedin,
   FaPhone,
   FaReact,
+  FaChartLine,
+  FaChartBar,
 } from "react-icons/fa6";
 import {
   RiNextjsFill,
@@ -18,10 +20,8 @@ import {
   SiPython,
   SiPandas,
   SiNumpy,
-  SiMatplotlib,
   SiTensorflow,
   SiScikitlearn,
-  SiSeaborn,
   SiFastapi,
 } from "react-icons/si";
 import { FaInstagram } from "react-icons/fa6";
@@ -85,13 +85,13 @@ const TOOLS = [
   {
     name: "Matplotlib",
     content: "Plotting & charts",
-    icon: <SiMatplotlib size={"50px"} color="#11557C" />,
+    icon: <FaChartLine size={"50px"} color="#11557C" />,
     color: "#11557C",
   },
   {
     name: "Seaborn",
     content: "Statistical visualization",
-    icon: <SiSeaborn size={"50px"} color="#4C72B0" />,
+    icon: <FaChartBar size={"50px"} color="#4C72B0" />,
     color: "#4C72B0",
   },
   {
