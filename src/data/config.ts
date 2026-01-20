@@ -28,7 +28,7 @@ const config = {
   },
   social: {
     twitter: "",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/avra-paul-1924631b5/",
     instagram: "https://www.instagram.com/avras.distress?igsh=Z2MyaXNza3A3bDNw&utm_source=qr",
     facebook: "",
     github: "https://github.com/AvraCodes",
