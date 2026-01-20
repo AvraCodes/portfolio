@@ -54,6 +54,39 @@ export type ProjectType = {
 
 const projects: ProjectType[] = [
   {
+    id: "rag-ai-chatbot",
+    category: "AI/Education",
+    title: "RAG-Based AI Chatbot",
+    src: `${BASE_PATH}/AI chatbot/screenshot-landing.png`,
+    screenshots: ["screenshot-landing.png", "screenshot-response.png"],
+    skills: {
+      frontend: [],
+      backend: [PROJECT_SKILLS.python as unknown as Skill],
+    },
+    github: "https://github.com/AvraCodes/RAG-Ai-Chatbot",
+    live: "https://rag-chatbot-five-pi.vercel.app/",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            A RAG (Retrieval-Augmented Generation) based AI chatbot designed specifically for educational purposes. 
+            The chatbot leverages document retrieval to provide accurate, context-aware responses to learning queries.
+          </TypographyP>
+          <TypographyP className="font-mono mt-4">
+            Tech stack: Python, RAG framework, vector databases for document storage and retrieval, natural language processing for intelligent responses.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <TypographyH3 className="my-4 mt-8">Preview</TypographyH3>
+          <p className="font-mono mb-2">AI-powered educational assistant with document retrieval</p>
+          <SlideShow images={[
+            `${BASE_PATH}/AI chatbot/screenshot-landing.png`,
+            `${BASE_PATH}/AI chatbot/screenshot-response.png`
+          ]} />
+        </div>
+      );
+    },
+  },
+  {
     id: "alvyn",
     category: "Data Analyst Agent",
     title: "Alvyn - Data Analyst Agent",
