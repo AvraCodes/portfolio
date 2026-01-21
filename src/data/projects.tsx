@@ -54,6 +54,56 @@ export type ProjectType = {
 
 const projects: ProjectType[] = [
   {
+    id: "brewweb",
+    category: "Web Development Agency (Co-Founder)",
+    title: "BrewWeb — Web & App Development",
+    src: `${BASE_PATH}/BrewWeb/brewweb-landing.png`,
+    screenshots: ["brewweb-landing.png", "brewweb-about.png", "brewweb-noir-project.png"],
+    skills: {
+      frontend: [],
+      backend: [],
+    },
+    live: "https://brew-web.vercel.app/",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            BrewWeb is a small, developer-led web and application development agency focused on building clean, 
+            reliable digital products for startups and local businesses. We work closely with clients to design 
+            and deliver fast, mobile-friendly websites, internal dashboards, and custom web applications that 
+            solve real business problems.
+          </TypographyP>
+          <TypographyP className="font-mono mt-4">
+            As Co-Founder & Developer, I'm involved end-to-end — from understanding requirements and planning 
+            architecture to development, deployment, and iteration. Our work emphasizes performance, usability, 
+            and long-term maintainability over unnecessary complexity.
+          </TypographyP>
+          <TypographyP className="font-mono mt-4">
+            <strong>Selected Work:</strong>
+          </TypographyP>
+          <ul className="font-mono list-disc pl-6 mt-2">
+            <li>
+              <strong>Noir Cafe</strong> — Designed and built a responsive landing page to showcase the brand, 
+              menu, and location, helping improve online discoverability and walk-ins.
+            </li>
+            <li className="mt-2">
+              <strong>Datawise</strong> — Developed a data-focused web platform with dashboards and structured 
+              views to support analysis and decision-making.
+            </li>
+          </ul>
+          <ProjectsLinks live={this.live} />
+          <TypographyH3 className="my-4 mt-8">Preview</TypographyH3>
+          <p className="font-mono mb-2">Clean, production-ready web applications and landing pages</p>
+          <SlideShow images={[
+            `${BASE_PATH}/BrewWeb/brewweb-landing.png`,
+            `${BASE_PATH}/BrewWeb/brewweb-about.png`,
+            `${BASE_PATH}/BrewWeb/brewweb-noir-project.png`
+          ]} />
+        </div>
+      );
+    },
+  },
+  {
     id: "rag-ai-chatbot",
     category: "AI/Education",
     title: "RAG-Based AI Chatbot",
