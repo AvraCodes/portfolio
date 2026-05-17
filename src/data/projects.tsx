@@ -76,7 +76,7 @@ const projects: ProjectType[] = [
       ],
       backend: [],
     },
-    live: "",
+    live: "https://geodisha-digital.vercel.app/",
     get content() {
       return (
         <div>
@@ -100,6 +100,7 @@ const projects: ProjectType[] = [
               <strong>Fluid Motion Choreography</strong> — Implemented Framer Motion and custom transitions for flawless storytelling and micro-interactions.
             </li>
           </ul>
+          <ProjectsLinks live={this.live} />
           <TypographyH3 className="my-4 mt-8">Preview</TypographyH3>
           <p className="font-mono mb-2">Beautiful analytics dashboards, high-fidelity layouts, and premium interactive widgets</p>
           <SlideShow images={[
