@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { TypographyH3, TypographyP } from "@/components/ui/typography";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
-import { SiPython } from "react-icons/si";
+import { SiPython, SiReact, SiTailwindcss, SiThreedotjs, SiNextdotjs, SiFramer, SiTypescript } from "react-icons/si";
 import { ReactNode } from "react";
 
 const BASE_PATH = "/assets/projects-screenshots";
@@ -31,6 +31,12 @@ const ProjectsLinks = ({ live, repo }: { live: string; repo?: string }) => {
 
 const PROJECT_SKILLS: Record<string, { title: string; bg: string; fg: string; icon: ReactNode }> = {
   python: { title: "Python", bg: "black", fg: "white", icon: <SiPython /> },
+  react: { title: "React", bg: "#00d8ff", fg: "black", icon: <SiReact /> },
+  nextjs: { title: "Next.js", bg: "black", fg: "white", icon: <SiNextdotjs /> },
+  tailwindcss: { title: "Tailwind CSS", bg: "#38b2ac", fg: "white", icon: <SiTailwindcss /> },
+  threejs: { title: "Three.js", bg: "black", fg: "white", icon: <SiThreedotjs /> },
+  framer: { title: "Framer Motion", bg: "black", fg: "white", icon: <SiFramer /> },
+  typescript: { title: "TypeScript", bg: "#3178c6", fg: "white", icon: <SiTypescript /> },
 };
 
 export type Skill = {
@@ -54,6 +60,57 @@ export type ProjectType = {
 
 const projects: ProjectType[] = [
   {
+    id: "geodisha-digital",
+    category: "Interactive Web Development",
+    title: "GeoDisha Digital — Futuristic Corporate Platform",
+    src: `${BASE_PATH}/GeoDisha-Digital/screenshot-1.png`,
+    screenshots: ["screenshot-1.png", "screenshot-2.png"],
+    skills: {
+      frontend: [
+        PROJECT_SKILLS.react as unknown as Skill,
+        PROJECT_SKILLS.nextjs as unknown as Skill,
+        PROJECT_SKILLS.tailwindcss as unknown as Skill,
+        PROJECT_SKILLS.threejs as unknown as Skill,
+        PROJECT_SKILLS.framer as unknown as Skill,
+        PROJECT_SKILLS.typescript as unknown as Skill,
+      ],
+      backend: [],
+    },
+    live: "",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            GeoDisha Digital is a dynamic, futuristic brand identity and corporate platform engineered with high-end, immersive web design tools. By incorporating interactive 3D assets via Spline, smooth animation choreography with Framer Motion, and a rich, custom-themed UI, the platform redefines standard digital presence.
+          </TypographyP>
+          <TypographyP className="font-mono mt-4">
+            Designed as an analytics-backed growth platform, it translates complex demand signals and intent data into beautiful, real-time visual dashboards and widgets.
+          </TypographyP>
+          <TypographyP className="font-mono mt-4">
+            <strong>Key Highlights:</strong>
+          </TypographyP>
+          <ul className="font-mono list-disc pl-6 mt-2">
+            <li>
+              <strong>Immersive 3D Integrations</strong> — Integrated real-time interactive 3D elements using Spline to engage visitors instantly.
+            </li>
+            <li className="mt-2">
+              <strong>Premium Futuristic Design</strong> — Tailored custom gradients, rich dark/warm palettes, and precise grid widgets to deliver a high-quality dashboard experience.
+            </li>
+            <li className="mt-2">
+              <strong>Fluid Motion Choreography</strong> — Implemented Framer Motion and custom transitions for flawless storytelling and micro-interactions.
+            </li>
+          </ul>
+          <TypographyH3 className="my-4 mt-8">Preview</TypographyH3>
+          <p className="font-mono mb-2">Beautiful analytics dashboards, high-fidelity layouts, and premium interactive widgets</p>
+          <SlideShow images={[
+            `${BASE_PATH}/GeoDisha-Digital/screenshot-1.png`,
+            `${BASE_PATH}/GeoDisha-Digital/screenshot-2.png`
+          ]} />
+        </div>
+      );
+    },
+  },
+  {
     id: "brewweb",
     category: "Web Development Agency (Co-Founder)",
     title: "BrewWeb — Web & App Development",
@@ -74,7 +131,7 @@ const projects: ProjectType[] = [
             solve real business problems.
           </TypographyP>
           <TypographyP className="font-mono mt-4">
-            As Co-Founder & Developer, I'm involved end-to-end — from understanding requirements and planning 
+            As Co-Founder & Developer, I&apos;m involved end-to-end — from understanding requirements and planning 
             architecture to development, deployment, and iteration. Our work emphasizes performance, usability, 
             and long-term maintainability over unnecessary complexity.
           </TypographyP>
