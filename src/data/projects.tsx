@@ -168,10 +168,10 @@ const projects: ProjectType[] = [
     id: "airman-skynet",
     category: "Fullstack Aviation Workflow Platform",
     title: "AIRMAN Skynet Flight Operations Module",
-    src: `${BASE_PATH}/Skynet/Screenshot 2026-05-21 at 11.52.31 PM.png`,
+    src: `${BASE_PATH}/Skynet/skynet-dashboard.png`,
     screenshots: [
-      "Screenshot 2026-05-21 at 11.52.26 PM.png",
-      "Screenshot 2026-05-21 at 11.52.31 PM.png",
+      "skynet-login.png",
+      "skynet-dashboard.png",
     ],
     skills: {
       frontend: [
@@ -182,7 +182,7 @@ const projects: ProjectType[] = [
       ],
       backend: [PROJECT_SKILLS.python as unknown as Skill],
     },
-    live: "",
+    live: "https://airman-two.vercel.app/",
     get content() {
       return (
         <div>
@@ -213,8 +213,8 @@ const projects: ProjectType[] = [
           <p className="font-mono mb-2">Operational dashboard and role-driven login experience</p>
           <SlideShow
             images={[
-              `${BASE_PATH}/Skynet/Screenshot 2026-05-21 at 11.52.26 PM.png`,
-              `${BASE_PATH}/Skynet/Screenshot 2026-05-21 at 11.52.31 PM.png`,
+              `${BASE_PATH}/Skynet/skynet-login.png`,
+              `${BASE_PATH}/Skynet/skynet-dashboard.png`,
             ]}
           />
         </div>
