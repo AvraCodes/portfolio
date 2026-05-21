@@ -9,14 +9,17 @@ import { ReactNode } from "react";
 const BASE_PATH = "/assets/projects-screenshots";
 
 const ProjectsLinks = ({ live, repo }: { live: string; repo?: string }) => {
+  const hasLive = Boolean(live?.trim());
   return (
     <div className="flex flex-col md:flex-row items-center justify-start gap-3 my-3 mb-8">
-      <Link className="font-mono underline flex gap-2" rel="noopener" target="_new" href={live}>
-        <Button variant={"default"} size={"sm"}>
-          Visit
-          <ArrowUpRight className="ml-3 w-5 h-5" />
-        </Button>
-      </Link>
+      {hasLive && (
+        <Link className="font-mono underline flex gap-2" rel="noopener" target="_new" href={live}>
+          <Button variant={"default"} size={"sm"}>
+            Visit
+            <ArrowUpRight className="ml-3 w-5 h-5" />
+          </Button>
+        </Link>
+      )}
       {repo && (
         <Link className="font-mono underline flex gap-2" rel="noopener" target="_new" href={repo}>
           <Button variant={"default"} size={"sm"}>
@@ -157,6 +160,63 @@ const projects: ProjectType[] = [
             `${BASE_PATH}/BrewWeb/brewweb-about.png`,
             `${BASE_PATH}/BrewWeb/brewweb-noir-project.png`
           ]} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "airman-skynet",
+    category: "Fullstack Aviation Workflow Platform",
+    title: "AIRMAN Skynet Flight Operations Module",
+    src: `${BASE_PATH}/Skynet/Screenshot 2026-05-21 at 11.52.31 PM.png`,
+    screenshots: [
+      "Screenshot 2026-05-21 at 11.52.26 PM.png",
+      "Screenshot 2026-05-21 at 11.52.31 PM.png",
+    ],
+    skills: {
+      frontend: [
+        PROJECT_SKILLS.react as unknown as Skill,
+        PROJECT_SKILLS.nextjs as unknown as Skill,
+        PROJECT_SKILLS.tailwindcss as unknown as Skill,
+        PROJECT_SKILLS.typescript as unknown as Skill,
+      ],
+      backend: [PROJECT_SKILLS.python as unknown as Skill],
+    },
+    live: "",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono">
+            AIRMAN Skynet is a production-style aviation operations platform built to emulate real flight school workflows for sortie dispatch, aircraft readiness, training progress, maintenance defects, and audit logging.
+          </TypographyP>
+          <TypographyP className="font-mono mt-4">
+            The system pairs a FastAPI, PostgreSQL, and SQLAlchemy backend with a React, TypeScript, Tailwind CSS, and TanStack Query frontend to enforce aviation state transitions server-side instead of relying on frontend-only validation.
+          </TypographyP>
+          <TypographyP className="font-mono mt-4">
+            <strong>Key Highlights:</strong>
+          </TypographyP>
+          <ul className="font-mono list-disc pl-6 mt-2">
+            <li>
+              <strong>Role-based access control</strong> — Admin, Dispatcher, Instructor, CFI, Cadet, and Maintenance Officer workflows with permission-aware UI.
+            </li>
+            <li className="mt-2">
+              <strong>Operational lifecycle management</strong> — Sortie scheduling, dispatch release, airborne, landed, approval, and closure flows with strict business rules.
+            </li>
+            <li className="mt-2">
+              <strong>Maintenance and audit traceability</strong> — Aircraft grounding, defect recovery, and centralized audit logging for every critical aviation action.
+            </li>
+          </ul>
+          <TypographyP className="font-mono mt-4">
+            <strong>Engineering Notes:</strong> normalized PostgreSQL schema, reusable service-layer architecture, protected routes, and backend test coverage with Pytest.
+          </TypographyP>
+          <TypographyH3 className="my-4 mt-8">Preview</TypographyH3>
+          <p className="font-mono mb-2">Operational dashboard and role-driven login experience</p>
+          <SlideShow
+            images={[
+              `${BASE_PATH}/Skynet/Screenshot 2026-05-21 at 11.52.26 PM.png`,
+              `${BASE_PATH}/Skynet/Screenshot 2026-05-21 at 11.52.31 PM.png`,
+            ]}
+          />
         </div>
       );
     },

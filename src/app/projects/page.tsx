@@ -59,6 +59,16 @@ best deals on luxury brands and products. Join our savvy community of shoppers a
     link: "/projects/4",
     images: ["/assets/projects-screenshots/jra/1.png"],
   },
+  {
+    id: 5,
+    name: "AIRMAN Skynet Flight Operations Module",
+    description: `A production-style aviation operations platform for flight school workflows, covering sortie dispatch, aircraft readiness, training progress, maintenance defects, and audit logging.`,
+    link: "/assets/projects-screenshots/Skynet/Demo.mp4",
+    images: [
+      "/assets/projects-screenshots/Skynet/Screenshot 2026-05-21 at 11.52.26 PM.png",
+      "/assets/projects-screenshots/Skynet/Screenshot 2026-05-21 at 11.52.31 PM.png",
+    ],
+  },
 ];
 function Page() {
   return (
