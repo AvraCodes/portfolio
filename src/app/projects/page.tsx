@@ -65,8 +65,8 @@ best deals on luxury brands and products. Join our savvy community of shoppers a
     description: `A production-style aviation operations platform for flight school workflows, covering sortie dispatch, aircraft readiness, training progress, maintenance defects, and audit logging.`,
     link: "/assets/projects-screenshots/Skynet/Demo.mp4",
     images: [
-      "/assets/projects-screenshots/Skynet/Screenshot 2026-05-21 at 11.52.26 PM.png",
-      "/assets/projects-screenshots/Skynet/Screenshot 2026-05-21 at 11.52.31 PM.png",
+      "/assets/projects-screenshots/Skynet/skynet-login.png",
+      "/assets/projects-screenshots/Skynet/skynet-dashboard.png",
     ],
   },
 ];
