@@ -32,7 +32,7 @@ jobs:
 
           # First commit: README timestamp update
           git config user.name "AvraCodes"
-          git config user.email "avra@users.noreply.github.com"
+          git config user.email "150118974+AvraCodes@users.noreply.github.com"
           git add README.md
           git commit -m "chore: daily activity update" || echo "No README changes"
 
