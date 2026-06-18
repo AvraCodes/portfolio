@@ -1,0 +1,49 @@
+name: Daily Activity
+
+on:
+  schedule:
+    # Runs daily at a random-ish time (6:30 AM UTC = ~12:00 PM IST)
+    - cron: '30 6 * * *'
+  workflow_dispatch: # Manual trigger for testing
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Determine commit count (1-4)
+        id: count
+        run: echo "commits=$(shuf -i 1-4 -n 1)" >> "$GITHUB_OUTPUT"
+
+      - name: Update README timestamp
+        run: |
+          NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          sed -i "s/<!-- last-updated: .* -->/<!-- last-updated: $NOW -->/" README.md
+
+      - name: Update activity file with extra commits
+        run: |
+          TOTAL=${{ steps.count.outputs.commits }}
+          echo "Will make $TOTAL commit(s)"
+
+          # First commit: README timestamp update
+          git config user.name "AvraCodes"
+          git config user.email "avra@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: daily activity update" || echo "No README changes"
+
+          # Remaining commits go to .activity file
+          for i in $(seq 2 $TOTAL); do
+            STAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+            echo "Activity ping $i: $STAMP" >> .activity
+            git add .activity
+            git commit -m "chore: activity ping $i"
+            sleep 1
+          done
+
+      - name: Push changes
+        run: git push
