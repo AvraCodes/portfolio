@@ -39,3 +39,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-06-21T10:10:50Z | docs: update usage notes
 2026-06-21T10:10:51Z | fix: minor typo
 2026-06-21T10:10:52Z | chore: cleanup
+2026-06-21T10:10:53Z | refactor: extract helper
