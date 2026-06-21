@@ -32,3 +32,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-06-21T10:10:43Z | style: adjust spacing
 2026-06-21T10:10:44Z | refactor: reduce nesting
 2026-06-21T10:10:45Z | chore: bump version
+2026-06-21T10:10:46Z | refactor: extract helper
