@@ -26,3 +26,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-06-21T10:10:37Z | docs: update usage notes
 2026-06-21T10:10:38Z | style: whitespace
 2026-06-21T10:10:39Z | refactor: extract helper
+2026-06-21T10:10:40Z | fix: edge case handling
