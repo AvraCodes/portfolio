@@ -50,3 +50,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-06-23T10:11:48Z | refactor: extract helper
 2026-06-23T10:11:49Z | style: consistent quotes
 2026-06-23T10:11:50Z | refactor: extract helper
+2026-06-23T10:11:51Z | fix: off-by-one error
