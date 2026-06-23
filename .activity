@@ -53,3 +53,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-06-23T10:11:51Z | fix: off-by-one error
 2026-06-23T10:11:52Z | fix: null check
 2026-06-23T10:11:53Z | refactor: extract helper
+2026-06-23T10:11:54Z | refactor: simplify logic
