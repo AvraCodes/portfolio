@@ -112,3 +112,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-06-27T09:13:02Z | chore: regenerate lockfile
 2026-06-27T09:13:03Z | chore: regenerate lockfile
 2026-06-27T09:13:04Z | refactor: extract helper
+2026-06-27T09:13:05Z | docs: fix broken link
