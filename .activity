@@ -159,3 +159,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-06-30T10:08:17Z | fix: off-by-one error
 2026-06-30T10:08:18Z | style: fix formatting
 2026-06-30T10:08:19Z | style: whitespace
+2026-06-30T10:08:20Z | docs: add inline docs
