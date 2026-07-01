@@ -173,3 +173,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-01T10:30:43Z | docs: update usage notes
 2026-07-01T10:30:44Z | docs: fix broken link
 2026-07-01T10:30:45Z | refactor: clean up unused imports
+2026-07-01T10:30:46Z | fix: off-by-one error
