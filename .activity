@@ -254,3 +254,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-05T09:28:12Z | chore: cleanup
 2026-07-05T09:28:13Z | docs: clarify readme
 2026-07-05T09:28:14Z | refactor: extract helper
+2026-07-05T09:28:15Z | fix: edge case handling
