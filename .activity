@@ -289,3 +289,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-07T10:06:57Z | refactor: clean up unused imports
 2026-07-07T10:06:58Z | style: whitespace
 2026-07-07T10:06:59Z | refactor: reduce nesting
+2026-07-07T10:07:00Z | fix: off-by-one error
