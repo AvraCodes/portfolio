@@ -272,3 +272,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-07T10:06:40Z | chore: regenerate lockfile
 2026-07-07T10:06:41Z | docs: clarify readme
 2026-07-07T10:06:42Z | docs: fix broken link
+2026-07-07T10:06:43Z | docs: add inline docs
