@@ -309,3 +309,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-09T10:04:58Z | docs: fix broken link
 2026-07-09T10:04:59Z | style: adjust spacing
 2026-07-10T10:01:01Z | style: whitespace
+2026-07-10T10:01:02Z | fix: null check
