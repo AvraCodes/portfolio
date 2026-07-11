@@ -342,3 +342,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-11T08:20:57Z | refactor: extract helper
 2026-07-11T08:20:58Z | refactor: reduce nesting
 2026-07-11T08:20:59Z | chore: sync config
+2026-07-11T08:21:00Z | style: consistent quotes
