@@ -399,3 +399,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-15T08:56:14Z | style: lint fixes
 2026-07-16T08:41:46Z | refactor: reduce nesting
 2026-07-16T08:41:47Z | fix: null check
+2026-07-16T08:41:49Z | refactor: extract helper
