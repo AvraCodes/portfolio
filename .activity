@@ -476,3 +476,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-21T09:11:29Z | style: adjust spacing
 2026-07-21T09:11:30Z | style: consistent quotes
 2026-07-21T09:11:31Z | refactor: simplify logic
+2026-07-21T09:11:32Z | refactor: extract helper
