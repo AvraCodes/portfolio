@@ -503,3 +503,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-23T09:09:32Z | refactor: rename variable
 2026-07-23T09:09:33Z | docs: update usage notes
 2026-07-23T09:09:34Z | docs: add inline docs
+2026-07-23T09:09:35Z | refactor: simplify logic
