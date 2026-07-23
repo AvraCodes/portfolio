@@ -505,3 +505,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-23T09:09:34Z | docs: add inline docs
 2026-07-23T09:09:35Z | refactor: simplify logic
 2026-07-23T09:09:36Z | fix: minor typo
+2026-07-23T09:09:37Z | fix: off-by-one error
