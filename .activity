@@ -511,3 +511,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-24T09:03:57Z | style: consistent quotes
 2026-07-24T09:03:58Z | style: whitespace
 2026-07-24T09:03:59Z | refactor: clean up unused imports
+2026-07-24T09:04:00Z | refactor: extract helper
