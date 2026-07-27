@@ -540,3 +540,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-27T10:26:56Z | fix: minor typo
 2026-07-27T10:26:57Z | fix: edge case handling
 2026-07-27T10:26:58Z | fix: off-by-one error
+2026-07-27T10:26:59Z | docs: update comments
