@@ -574,3 +574,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-30T09:15:16Z | chore: regenerate lockfile
 2026-07-30T09:15:17Z | refactor: extract helper
 2026-07-30T09:15:18Z | chore: cleanup
+2026-07-30T09:15:19Z | chore: bump version
