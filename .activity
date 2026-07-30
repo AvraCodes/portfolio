@@ -588,3 +588,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-30T09:15:30Z | refactor: extract helper
 2026-07-30T09:15:31Z | refactor: rename variable
 2026-07-30T09:15:32Z | docs: add inline docs
+2026-07-30T09:15:33Z | refactor: reduce nesting
