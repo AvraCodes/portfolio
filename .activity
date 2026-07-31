@@ -591,3 +591,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-07-30T09:15:33Z | refactor: reduce nesting
 2026-07-30T09:15:34Z | style: whitespace
 2026-07-31T09:24:52Z | style: lint fixes
+2026-07-31T09:24:53Z | docs: add inline docs
