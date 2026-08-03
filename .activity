@@ -653,3 +653,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-03T10:24:34Z | fix: edge case handling
 2026-08-03T10:24:35Z | refactor: clean up unused imports
 2026-08-03T10:24:36Z | chore: sync config
+2026-08-03T10:24:37Z | docs: update usage notes
