@@ -694,3 +694,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-07T07:52:37Z | fix: minor typo
 2026-08-07T07:52:39Z | refactor: rename variable
 2026-08-07T07:52:40Z | docs: update comments
+2026-08-07T07:52:41Z | refactor: extract helper
