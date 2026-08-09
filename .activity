@@ -729,3 +729,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-09T07:34:32Z | fix: edge case handling
 2026-08-09T07:34:33Z | docs: clarify readme
 2026-08-09T07:34:34Z | docs: update comments
+2026-08-09T07:34:35Z | fix: off-by-one error
