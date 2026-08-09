@@ -733,3 +733,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-09T07:34:36Z | fix: off-by-one error
 2026-08-09T07:34:37Z | fix: boundary condition
 2026-08-09T07:34:38Z | chore: cleanup
+2026-08-09T07:34:39Z | docs: update comments
