@@ -767,3 +767,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-12T08:00:01Z | chore: bump version
 2026-08-12T08:00:02Z | style: consistent quotes
 2026-08-12T08:00:03Z | refactor: reduce nesting
+2026-08-13T08:01:46Z | refactor: extract helper
