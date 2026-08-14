@@ -775,3 +775,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-14T07:57:44Z | refactor: simplify logic
 2026-08-14T07:57:45Z | docs: clarify readme
 2026-08-14T07:57:46Z | docs: update usage notes
+2026-08-14T07:57:47Z | refactor: reduce nesting
