@@ -783,3 +783,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-14T07:57:52Z | fix: off-by-one error
 2026-08-14T07:57:53Z | refactor: reduce nesting
 2026-08-14T07:57:54Z | chore: bump version
+2026-08-15T07:07:50Z | docs: add inline docs
