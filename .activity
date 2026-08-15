@@ -796,3 +796,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-15T07:08:01Z | refactor: extract helper
 2026-08-15T07:08:02Z | fix: boundary condition
 2026-08-15T07:08:03Z | docs: clarify readme
+2026-08-15T07:08:04Z | docs: fix broken link
