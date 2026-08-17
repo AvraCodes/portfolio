@@ -810,3 +810,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-16T07:09:17Z | fix: off-by-one error
 2026-08-16T07:09:18Z | style: adjust spacing
 2026-08-17T07:33:33Z | docs: update comments
+2026-08-17T07:33:34Z | docs: fix broken link
