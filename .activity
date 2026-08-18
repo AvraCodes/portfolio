@@ -842,3 +842,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-18T07:21:03Z | docs: update usage notes
 2026-08-18T07:21:04Z | chore: bump version
 2026-08-18T07:21:05Z | chore: regenerate lockfile
+2026-08-18T07:21:06Z | refactor: reduce nesting
