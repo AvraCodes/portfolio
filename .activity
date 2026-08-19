@@ -854,3 +854,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-19T07:21:10Z | fix: edge case handling
 2026-08-19T07:21:11Z | fix: null check
 2026-08-19T07:21:12Z | chore: update dependencies
+2026-08-19T07:21:13Z | docs: clarify readme
