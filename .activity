@@ -869,3 +869,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-20T07:24:23Z | style: whitespace
 2026-08-20T07:24:24Z | chore: cleanup
 2026-08-21T07:24:31Z | fix: null check
+2026-08-21T07:24:32Z | refactor: extract helper
