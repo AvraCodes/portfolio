@@ -893,3 +893,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-22T07:10:27Z | fix: minor typo
 2026-08-22T07:10:28Z | fix: edge case handling
 2026-08-22T07:10:29Z | refactor: extract helper
+2026-08-22T07:10:30Z | refactor: reduce nesting
