@@ -903,3 +903,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-23T07:11:26Z | refactor: rename variable
 2026-08-23T07:11:27Z | chore: bump version
 2026-08-23T07:11:28Z | refactor: clean up unused imports
+2026-08-23T07:11:29Z | docs: clarify readme
