@@ -950,3 +950,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-25T07:25:59Z | chore: cleanup
 2026-08-25T07:26:00Z | refactor: clean up unused imports
 2026-08-25T07:26:01Z | chore: cleanup
+2026-08-25T07:26:02Z | fix: off-by-one error
