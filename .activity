@@ -954,3 +954,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-26T07:26:35Z | chore: bump version
 2026-08-26T07:26:36Z | refactor: clean up unused imports
 2026-08-26T07:26:37Z | docs: clarify readme
+2026-08-26T07:26:38Z | fix: null check
