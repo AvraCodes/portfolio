@@ -961,3 +961,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-26T07:26:42Z | chore: bump version
 2026-08-26T07:26:43Z | docs: fix broken link
 2026-08-26T07:26:44Z | chore: update dependencies
+2026-08-26T07:26:45Z | fix: off-by-one error
