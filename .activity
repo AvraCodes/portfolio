@@ -1000,3 +1000,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-28T18:57:04Z | docs: fix broken link
 2026-08-28T18:57:05Z | chore: regenerate lockfile
 2026-08-28T18:57:06Z | chore: bump version
+2026-08-28T18:57:07Z | fix: off-by-one error
