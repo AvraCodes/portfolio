@@ -1005,3 +1005,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-29T12:47:53Z | docs: update usage notes
 2026-08-29T12:47:55Z | chore: regenerate lockfile
 2026-08-29T12:47:56Z | fix: edge case handling
+2026-08-29T12:47:57Z | fix: minor typo
