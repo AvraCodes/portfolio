@@ -1002,3 +1002,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-28T18:57:06Z | chore: bump version
 2026-08-28T18:57:07Z | fix: off-by-one error
 2026-08-28T18:57:08Z | chore: update dependencies
+2026-08-29T12:47:53Z | docs: update usage notes
