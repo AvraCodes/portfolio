@@ -1038,3 +1038,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-08-31T14:18:51Z | refactor: extract helper
 2026-08-31T14:18:52Z | style: whitespace
 2026-09-01T11:56:08Z | fix: minor typo
+2026-09-01T11:56:09Z | fix: edge case handling
