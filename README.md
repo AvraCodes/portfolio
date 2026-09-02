@@ -73,5 +73,5 @@ If you'd like to contribute or suggest improvements, feel free to open an issue 
 
 This project is open source and available under the [MIT License](LICENSE).
 
-<!-- last-updated: 2026-09-01T11:56:07Z -->
+<!-- last-updated: 2026-09-02T11:37:02Z -->
 
