@@ -1109,3 +1109,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-06T11:15:52Z | docs: fix broken link
 2026-09-06T11:15:53Z | chore: bump version
 2026-09-06T11:15:54Z | refactor: reduce nesting
+2026-09-06T11:15:55Z | fix: off-by-one error
