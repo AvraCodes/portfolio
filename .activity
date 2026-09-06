@@ -1104,3 +1104,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-06T11:15:47Z | style: consistent quotes
 2026-09-06T11:15:48Z | refactor: reduce nesting
 2026-09-06T11:15:49Z | style: consistent quotes
+2026-09-06T11:15:50Z | fix: off-by-one error
