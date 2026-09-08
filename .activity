@@ -1130,3 +1130,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-07T12:56:52Z | fix: edge case handling
 2026-09-08T11:38:29Z | refactor: clean up unused imports
 2026-09-08T11:38:30Z | refactor: simplify logic
+2026-09-08T11:38:31Z | docs: fix broken link
