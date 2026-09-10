@@ -1152,3 +1152,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-10T11:42:40Z | docs: clarify readme
 2026-09-10T11:42:41Z | chore: sync config
 2026-09-10T11:42:42Z | refactor: rename variable
+2026-09-10T11:42:43Z | fix: off-by-one error
