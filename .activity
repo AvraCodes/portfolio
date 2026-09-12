@@ -1182,3 +1182,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-12T11:09:18Z | refactor: clean up unused imports
 2026-09-12T11:09:19Z | style: adjust spacing
 2026-09-12T11:09:20Z | style: whitespace
+2026-09-12T11:09:21Z | fix: null check
