@@ -1190,3 +1190,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-13T12:13:17Z | fix: null check
 2026-09-13T12:13:18Z | refactor: simplify logic
 2026-09-13T12:13:19Z | chore: cleanup
+2026-09-13T12:13:20Z | docs: fix broken link
