@@ -1217,3 +1217,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-14T13:13:50Z | fix: boundary condition
 2026-09-14T13:13:51Z | fix: boundary condition
 2026-09-14T13:13:52Z | docs: fix broken link
+2026-09-14T13:13:53Z | fix: off-by-one error
