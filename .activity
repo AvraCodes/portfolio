@@ -1246,3 +1246,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-17T11:58:50Z | style: lint fixes
 2026-09-17T11:58:51Z | chore: regenerate lockfile
 2026-09-17T11:58:52Z | chore: update dependencies
+2026-09-17T11:58:53Z | fix: edge case handling
