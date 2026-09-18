@@ -1267,3 +1267,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-17T11:59:11Z | refactor: reduce nesting
 2026-09-18T11:40:03Z | refactor: simplify logic
 2026-09-18T11:40:05Z | docs: update usage notes
+2026-09-18T11:40:06Z | fix: off-by-one error
