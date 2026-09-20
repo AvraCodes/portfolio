@@ -1290,3 +1290,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-20T11:43:56Z | docs: add inline docs
 2026-09-20T11:43:57Z | refactor: clean up unused imports
 2026-09-20T11:43:58Z | style: consistent quotes
+2026-09-20T11:43:59Z | refactor: extract helper
