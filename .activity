@@ -1308,3 +1308,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-21T13:12:36Z | style: whitespace
 2026-09-21T13:12:37Z | fix: edge case handling
 2026-09-21T13:12:38Z | docs: update usage notes
+2026-09-21T13:12:39Z | fix: boundary condition
