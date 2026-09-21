@@ -1302,3 +1302,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-20T11:44:08Z | style: fix formatting
 2026-09-20T11:44:09Z | docs: clarify readme
 2026-09-21T13:12:32Z | docs: clarify readme
+2026-09-21T13:12:33Z | fix: off-by-one error
