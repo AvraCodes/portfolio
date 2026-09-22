@@ -1323,3 +1323,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-09-22T11:58:52Z | docs: update usage notes
 2026-09-22T11:58:53Z | fix: boundary condition
 2026-09-22T11:58:54Z | fix: edge case handling
+2026-09-22T11:58:55Z | refactor: extract helper
