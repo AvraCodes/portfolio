@@ -1533,3 +1533,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-08T13:53:39Z | docs: clarify readme
 2026-10-08T13:53:40Z | chore: bump version
 2026-10-08T13:53:41Z | fix: null check
+2026-10-08T13:53:42Z | fix: null check
