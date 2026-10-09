@@ -1544,3 +1544,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-09T13:38:06Z | docs: update usage notes
 2026-10-09T13:38:07Z | refactor: rename variable
 2026-10-09T13:38:08Z | style: consistent quotes
+2026-10-09T13:38:09Z | fix: off-by-one error
