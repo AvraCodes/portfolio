@@ -1548,3 +1548,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-09T13:38:10Z | style: adjust spacing
 2026-10-09T13:38:11Z | style: consistent quotes
 2026-10-09T13:38:12Z | style: lint fixes
+2026-10-10T12:56:21Z | fix: off-by-one error
