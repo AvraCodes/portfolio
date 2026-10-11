@@ -1584,3 +1584,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-11T13:20:32Z | fix: off-by-one error
 2026-10-11T13:20:33Z | refactor: reduce nesting
 2026-10-11T13:20:34Z | refactor: extract helper
+2026-10-11T13:20:35Z | docs: fix broken link
