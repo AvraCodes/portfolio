@@ -1589,3 +1589,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-12T15:56:24Z | docs: fix broken link
 2026-10-12T15:56:25Z | style: whitespace
 2026-10-12T15:56:26Z | refactor: simplify logic
+2026-10-12T15:56:27Z | refactor: extract helper
