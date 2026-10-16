@@ -1620,3 +1620,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-15T11:57:16Z | docs: update comments
 2026-10-15T11:57:17Z | fix: edge case handling
 2026-10-15T11:57:18Z | refactor: extract helper
+2026-10-16T11:47:39Z | fix: null check
