@@ -1624,3 +1624,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-16T11:47:41Z | refactor: clean up unused imports
 2026-10-16T11:47:42Z | refactor: clean up unused imports
 2026-10-16T11:47:43Z | refactor: reduce nesting
+2026-10-16T11:47:44Z | docs: update comments
