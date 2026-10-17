@@ -1631,3 +1631,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-17T11:04:07Z | fix: edge case handling
 2026-10-17T11:04:08Z | refactor: rename variable
 2026-10-17T11:04:09Z | docs: fix broken link
+2026-10-17T11:04:10Z | fix: null check
