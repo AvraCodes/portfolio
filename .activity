@@ -1636,3 +1636,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-18T11:35:28Z | refactor: reduce nesting
 2026-10-18T11:35:29Z | style: whitespace
 2026-10-18T11:35:30Z | docs: add inline docs
+2026-10-18T11:35:31Z | docs: fix broken link
