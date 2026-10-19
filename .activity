@@ -1646,3 +1646,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-18T11:35:38Z | docs: add inline docs
 2026-10-19T13:49:14Z | refactor: clean up unused imports
 2026-10-19T13:49:15Z | refactor: rename variable
+2026-10-19T13:49:16Z | docs: clarify readme
