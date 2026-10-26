@@ -1721,3 +1721,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-26T13:27:30Z | style: consistent quotes
 2026-10-26T13:27:31Z | docs: add inline docs
 2026-10-26T13:27:33Z | chore: sync config
+2026-10-26T13:27:34Z | fix: edge case handling
