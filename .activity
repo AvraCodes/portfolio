@@ -1728,3 +1728,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-27T12:34:56Z | style: consistent quotes
 2026-10-27T12:34:57Z | refactor: rename variable
 2026-10-28T13:24:46Z | chore: bump version
+2026-10-28T13:24:47Z | fix: null check
