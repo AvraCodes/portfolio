@@ -1734,3 +1734,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-28T13:24:50Z | docs: update usage notes
 2026-10-28T13:24:51Z | style: adjust spacing
 2026-10-28T13:24:52Z | chore: sync config
+2026-10-29T13:32:58Z | refactor: extract helper
