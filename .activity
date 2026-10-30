@@ -1754,3 +1754,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-30T13:23:25Z | chore: cleanup
 2026-10-30T13:23:26Z | chore: regenerate lockfile
 2026-10-30T13:23:27Z | fix: edge case handling
+2026-10-30T13:23:28Z | fix: off-by-one error
