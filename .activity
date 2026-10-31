@@ -1777,3 +1777,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-31T12:57:41Z | style: consistent quotes
 2026-10-31T12:57:42Z | refactor: extract helper
 2026-10-31T12:57:44Z | style: whitespace
+2026-10-31T12:57:45Z | refactor: reduce nesting
