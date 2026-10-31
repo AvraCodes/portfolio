@@ -1780,3 +1780,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-10-31T12:57:45Z | refactor: reduce nesting
 2026-10-31T12:57:46Z | docs: add inline docs
 2026-10-31T12:57:47Z | docs: clarify readme
+2026-10-31T12:57:48Z | fix: boundary condition
