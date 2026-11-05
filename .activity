@@ -1820,3 +1820,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-04T14:47:51Z | docs: update comments
 2026-11-04T14:47:52Z | fix: boundary condition
 2026-11-04T14:47:53Z | chore: regenerate lockfile
+2026-11-05T14:53:01Z | fix: off-by-one error
