@@ -1833,3 +1833,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-05T14:53:11Z | chore: regenerate lockfile
 2026-11-05T14:53:12Z | docs: update usage notes
 2026-11-05T14:53:13Z | fix: null check
+2026-11-05T14:53:14Z | refactor: simplify logic
