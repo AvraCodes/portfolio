@@ -1853,3 +1853,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-06T14:30:55Z | fix: off-by-one error
 2026-11-06T14:30:56Z | style: lint fixes
 2026-11-06T14:30:57Z | style: whitespace
+2026-11-06T14:30:58Z | fix: null check
