@@ -1905,3 +1905,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-09T16:45:37Z | fix: edge case handling
 2026-11-09T16:45:38Z | docs: fix broken link
 2026-11-09T16:45:39Z | chore: bump version
+2026-11-09T16:45:40Z | docs: clarify readme
