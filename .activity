@@ -1902,3 +1902,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-09T16:45:34Z | docs: fix broken link
 2026-11-09T16:45:35Z | style: whitespace
 2026-11-09T16:45:36Z | style: consistent quotes
+2026-11-09T16:45:37Z | fix: edge case handling
