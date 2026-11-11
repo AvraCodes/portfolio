@@ -1916,3 +1916,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-11T14:39:20Z | style: lint fixes
 2026-11-11T14:39:21Z | refactor: clean up unused imports
 2026-11-11T14:39:22Z | docs: clarify readme
+2026-11-11T14:39:23Z | fix: null check
