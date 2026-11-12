@@ -1942,3 +1942,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-12T15:31:16Z | fix: null check
 2026-11-12T15:31:17Z | chore: cleanup
 2026-11-12T15:31:18Z | fix: minor typo
+2026-11-12T15:31:19Z | docs: clarify readme
