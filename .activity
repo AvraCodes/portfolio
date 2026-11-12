@@ -1951,3 +1951,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-12T15:31:25Z | fix: boundary condition
 2026-11-12T15:31:26Z | chore: cleanup
 2026-11-12T15:31:27Z | refactor: rename variable
+2026-11-12T15:31:28Z | fix: off-by-one error
