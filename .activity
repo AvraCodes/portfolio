@@ -1972,3 +1972,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-14T13:44:25Z | style: lint fixes
 2026-11-14T13:44:26Z | style: fix formatting
 2026-11-14T13:44:27Z | chore: bump version
+2026-11-14T13:44:28Z | refactor: simplify logic
