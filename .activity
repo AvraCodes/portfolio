@@ -1985,3 +1985,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-16T16:18:12Z | refactor: rename variable
 2026-11-16T16:18:13Z | style: adjust spacing
 2026-11-16T16:18:14Z | docs: clarify readme
+2026-11-16T16:18:15Z | refactor: extract helper
