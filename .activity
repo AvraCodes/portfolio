@@ -1998,3 +1998,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-18T15:54:55Z | docs: add inline docs
 2026-11-18T15:54:56Z | fix: minor typo
 2026-11-18T15:54:57Z | docs: add inline docs
+2026-11-18T15:54:58Z | refactor: simplify logic
