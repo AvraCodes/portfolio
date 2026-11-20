@@ -2012,3 +2012,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-19T15:58:52Z | fix: edge case handling
 2026-11-20T15:41:50Z | style: fix formatting
 2026-11-20T15:41:51Z | refactor: clean up unused imports
+2026-11-20T15:41:52Z | refactor: extract helper
