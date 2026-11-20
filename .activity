@@ -2022,3 +2022,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-20T15:41:59Z | refactor: reduce nesting
 2026-11-20T15:42:00Z | docs: fix broken link
 2026-11-20T15:42:01Z | style: whitespace
+2026-11-20T15:42:02Z | refactor: simplify logic
