@@ -2043,3 +2043,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-21T14:53:04Z | refactor: extract helper
 2026-11-21T14:53:05Z | docs: update usage notes
 2026-11-21T14:53:06Z | refactor: clean up unused imports
+2026-11-21T14:53:07Z | style: lint fixes
