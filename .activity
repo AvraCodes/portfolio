@@ -2068,3 +2068,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-24T18:08:31Z | style: fix formatting
 2026-11-24T18:08:32Z | style: lint fixes
 2026-11-24T18:08:33Z | fix: null check
+2026-11-24T18:08:34Z | docs: clarify readme
