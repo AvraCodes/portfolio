@@ -2088,3 +2088,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-24T18:08:52Z | docs: add inline docs
 2026-11-24T18:08:53Z | refactor: reduce nesting
 2026-11-24T18:08:54Z | chore: bump version
+2026-11-24T18:08:55Z | refactor: simplify logic
