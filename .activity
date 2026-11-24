@@ -2074,3 +2074,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-24T18:08:37Z | fix: minor typo
 2026-11-24T18:08:38Z | refactor: reduce nesting
 2026-11-24T18:08:39Z | docs: fix broken link
+2026-11-24T18:08:40Z | fix: null check
