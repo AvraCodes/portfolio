@@ -2081,3 +2081,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-24T18:08:44Z | chore: sync config
 2026-11-24T18:08:45Z | refactor: simplify logic
 2026-11-24T18:08:46Z | docs: update usage notes
+2026-11-24T18:08:47Z | fix: off-by-one error
