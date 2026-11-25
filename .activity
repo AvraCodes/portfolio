@@ -2110,3 +2110,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-25T17:31:41Z | chore: regenerate lockfile
 2026-11-25T17:31:42Z | style: adjust spacing
 2026-11-25T17:31:43Z | style: whitespace
+2026-11-25T17:31:44Z | fix: off-by-one error
