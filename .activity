@@ -2099,3 +2099,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-25T17:31:30Z | fix: edge case handling
 2026-11-25T17:31:31Z | refactor: reduce nesting
 2026-11-25T17:31:32Z | chore: regenerate lockfile
+2026-11-25T17:31:33Z | refactor: extract helper
