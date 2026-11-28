@@ -2127,3 +2127,4 @@ Activity ping 2: 2026-06-19T11:05:57Z
 2026-11-28T15:45:50Z | style: fix formatting
 2026-11-28T15:45:51Z | fix: edge case handling
 2026-11-28T15:45:52Z | style: whitespace
+2026-11-28T15:45:53Z | refactor: extract helper
